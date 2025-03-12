@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema ../Binaries/Manifest.xsd">
+  <FileName>Resto.Front.Api.PRE_ORDERS.dll</FileName>
+  <TypeName>PRE_ORDERS.PRE_ORDERS</TypeName>
+  <ApiVersion>V6</ApiVersion>
+  <LicenseModuleId>0029026118</LicenseModuleId>
+</Manifest>
