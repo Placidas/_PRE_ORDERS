@@ -34,8 +34,8 @@
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="Resto.Front.Api.V8, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>Resto.Front.Api.V8.dll</HintPath>
+    <Reference Include="Resto.Front.Api.V9Preview5, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>Resto.Front.Api.V9Preview5.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
@@ -66,7 +66,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Resto.Front.Api.V8">
+    <PackageReference Include="Resto.Front.Api.V9Preview5">
       <Version>7.0.6022</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>

@@ -22,7 +22,7 @@ namespace PRE_ORDERS
         {
             PluginContext.Log.Info("Initializing PRE_ORDERS");
             string PLUGIN_NAME = PRE_ORDERS_Ini.PRE_ORDERS_Start();
-            PluginContext.Operations.AddButtonToPluginsMenu("PRE_ORDERS versija 2.0", x => x.vm.ShowOkPopup("IKS-T81F", "Pirminės sąskaitos numerio paieška"));
+            PluginContext.Operations.AddButtonToPluginsMenu("PRE_ORDERS v 9.2.6029.0", x => x.vm.ShowOkPopup("IKS-T81F", "Pirminės sąskaitos numerio paieška"));
             subscriptions.Push(new PRE_ORDERS_Dialog());
             PluginContext.Log.Info("PRE_ORDERS started");}
 

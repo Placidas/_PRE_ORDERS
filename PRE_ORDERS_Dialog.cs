@@ -367,7 +367,9 @@ namespace PRE_ORDERS
                 line = null;
                 while ((line = SR.ReadLine()) != null)
                 {
-                    if (line.Length > 80) if (line.Substring(20, 8) == ord_nr && line.Substring(65, 1) == "0") break;
+                    // Ankstesnis sprendimas - pirminę sąsk. spausdinti tik pirmam atsiskaitymo kvite kvite
+                    // if (line.Length > 80) if (line.Substring(20, 8) == ord_nr && line.Substring(65, 1) == "0") break;
+                    if (line.Length > 80) if (line.Substring(20, 8) == ord_nr) break;
                 }
                 SR.Close();
                 if (line == null) return;                                       // Išankstinė sąskaita nesurasta
